@@ -1,0 +1,65 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #561d037f;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Create a container for header content and adjust its display */
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    flex: 1; /* Allow h1 to take up available space */
+}
+
+header img {
+    max-width: 100%; /* Adjust the logo width as needed */
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: #dbc504;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+}
+
+section#about,
+section#products {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-item {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.product-item img {
+    max-width: 100%; /* Adjust the product image size as needed */
+}
