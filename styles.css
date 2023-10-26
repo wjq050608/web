@@ -1,31 +1,22 @@
-/* Reset some default styles */
-body, h1, h2, h3, p {
-    margin: 0;
-    padding: 0;
+html{
+	background-image: url(back.jpg);
+	background-size:100% 100%;
+	background-attachment:fixed;
 }
 
-/* Basic styling */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #561d037f;
-}
+
 
 header {
-    text-align: left;
-    padding: 20px;
+    text-align: center;
 }
 
-header img {
-    /*max-width: 200px; /* Adjust the logo size as needed */
-    max-width: 100px; /* Adjust the logo size as needed */
-    align-items: right;
-}
+
 
 nav ul {
     list-style: none;
     text-align: center;
-    background-color: #dbc504;
-    padding: 10px;
+    background-color: #ffffff;
+    padding: 20px;
 }
 
 nav ul li {
@@ -38,19 +29,56 @@ nav a {
     color: #000000;
 }
 
+
+
 section#about,
 section#products {
     padding: 20px;
     text-align: center;
+
 }
 
-.product-item {
+
+.div {
     display: inline-block;
-    margin: 10px;
+    margin: 30px;
+    width: 300px;
     text-align: center;
+    border: #ffea00;
+	border-style:solid;
+    background-color: aquamarine;
+
 }
 
-.product-item img {
-    max-width: 200px; /* Adjust the product image size as needed */
-    /*max-width: 100%; /* Adjust the product image size as needed */
+
+
+
+td{
+    padding: 50px;
+    background-color: bisque;
 }
+
+input[id=pay]{
+	background-color: #000000b3;
+	color: white;
+	border:none;
+	border-radius: 20px;
+	outline: none;
+	text-align: center;
+	height: 50px;
+	width: 250px;
+	margin: 5px;
+}
+
+ 
+input[id=pay]:hover{
+	outline: none;
+	background-color:#000000b3;
+	color: white;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.45), 0 6px 20px 0 rgba(0,0,0,0.19);  
+}
+
+
+
+
+
